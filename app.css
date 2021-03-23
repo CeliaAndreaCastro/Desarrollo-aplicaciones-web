@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+}
+.container{
+    width: 60%;
+    height: 500px;
+    background-color: purple;
+    text-align: center; 
+    display: flex;      /*Define un contenedor*/
+    flex-direction: row;  /*Define el eje principal, en este caso eje X*/
+    flex-wrap: wrap;    /*Flexible*/
+    justify-content: center; /*Alinea los items en el eje crux, en este caso Y*/
+
+}
+.flex-item{
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background-color: orangered;
+    margin: 5px;
+}
