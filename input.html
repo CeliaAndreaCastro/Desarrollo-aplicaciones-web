@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Input</title>
+</head>
+<body>
+    <h2>Checkboxes</h2>
+    <form action="/action_áge.php">
+        <input type="checkbox" id="vehiculo1" name="vehiculo1" value="bici"> <label for="vehiculo1">Tengo una bicicleta</label> <br>
+        
+        <input type="checkbox" id="vehiculo2" name="vehiculo2" value="carro"> <label for="vehiculo2">tengo un carro</label><br>
+        
+        <input type="checkbox" id="vehiculo3" name="vehiculo3" value="bote"> <label for="vehiculo3">tengo un bote</label><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Mostrar un selector de color</h2>
+    <form action="/action_page.php"> <label for="favcolor">Elige un color favorito: </label>
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    <input type="submit" value="Enviar">
+<p><b>Nota:</b> type="color" no es compatible con internet Explorer 11 o Safari 9.1</p>
+    </form>
+
+    <h2>Fecha</h2>
+    <form action="/action_page.php">
+    <label for="cumple">Fecha de nacimiento: </label>
+    <input type="date" id="cumple" name="cum">
+    <input type="submit" value="enviar">
+ <p><b>Nota:</b> type="color" no es compatible con internet Explorer 11 o Safari 9.1</p>
+    
+</form>
+</body>
+</html>
